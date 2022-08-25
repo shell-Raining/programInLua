@@ -6,7 +6,7 @@ print(-3 % 2)
 -- the num of below statement is 314.0
 -- TODO: why this grammer is not supported
 -- because it need you refresh the buffer
-print(math.pi // 0.01)
+print(math.pi / 0.01)
 
 -- random numberx
 -- it does appear the same situation
@@ -21,7 +21,14 @@ end
 print(math.maxinteger)
 
 -- the num of below statement is 2, this means it calc from right to left
-print(2^-3^0)
+print(2 ^ -3 ^ 0)
 
 -- TODO: lua implementation normal distribution
--- how
+-- how to do this
+for i = 1, 10 do
+    print("hello")
+end
+
+for i = 1, 20 do
+    print("hello world")
+end
